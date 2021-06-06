@@ -31,6 +31,10 @@ document.querySelector(".modal").addEventListener('submit', function () {
         alert('Введите логин и пароль');
     }
 })
+document.querySelector('.opacity').addEventListener('click', function(){
+    document.querySelector(".opacity").hidden = true
+    document.querySelector(".modal").style.visibility="hidden"
+})
 window.onload = function() {
     if (localStorage.getItem('user') != undefined){
         const authorizedBlock = document.createElement('div')

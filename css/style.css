@@ -411,6 +411,7 @@ body{
 }
 .opacity{
     position: absolute;
+    left: -10px;
     width:125%;
     height:125%;
     background:#333333;
